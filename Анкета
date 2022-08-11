@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+
+		<title>теги html</title>
+
+		<meta>
+
+	</head>
+
+	<body>
+
+		<form action="#" method="post"></form>
+
+		<div>
+
+		<input placeholder="ФИО" type="text" name="username" value="">
+
+		</div>
+
+		<div>
+
+		<input placeholder="Пароль" type="password" name="userpass" value="">
+
+		</div>
+
+		<br>
+
+		Сделайте выбор
+		<div>
+
+			<p><input checked type="radio" name="bs" value="lager" /> Эмз </p>
+
+			<p><input type="radio" name="bs" value="dark" /> Коллет </p>
+
+
+
+
+		</div>
+
+
+
+			<div>
+
+			<p><input type="radio" name="bs" value="lager" /> Эль Примо </p>
+
+			<p><input type="radio" name="bs" value="dark" /> Булл </p>
+
+
+		
+
+
+		</div>
+
+		
+		Ответьте на вопросы
+
+       
+
+		<div>
+<br>
+		<input checked type="checkbox" name="character" value="yes"/> Есть у ваc Эль Примо?
+
+
+		</div>
+
+		<div>
+
+		<input type="checkbox" name="character" value="yes"/> Есть у ваc Булл?
+
+		</div>
+
+		<div>
+
+		<input type="checkbox" name="character" value="yes"/> Есть у ваc Коллет?
+
+		</div>
+
+		<div>
+		<input type="checkbox" name="character" value="yes"/> Есть у ваc Эмз?
+
+		</div>
+<br>
+		Прикрепите любимое фото
+
+		
+
+		<div>
+<br>
+		<input type="file" name="foto" value="">
+
+		</div>
+ 		
+ 		<br>
+
+		<div>
+
+		<textarea name="pole"></textarea>
+			
+		</div>
+<br>
+		Выберите свою любимую
+
+		
+		<div>
+		<br>
+	
+			<select name="Легендарки">
+				
+				<option  value="leon">Леон</option>
+
+				<option value="crow">Ворон</option>
+
+				<option selected value="spike">Спайк</option>
+
+			</select>
+		</div>
+
+		
+
+		<div>
+			<br>
+			<button type="submit">Отправить</button>
+
+		
+			
+				<button type="reset">Очистить</button>
+
+		</div>
+
+
+
+
+	</body>
+
+</html>
